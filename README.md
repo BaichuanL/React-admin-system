@@ -1,11 +1,12 @@
-After downloading, move db.json out of the project folder
+# React-admin-system
+## launch the project
+### Step 1 : start server
+npm install -g json-server
 
-download json-server: npm install -g json-server
+open terminal where da.json at
 
-open terminal where da.json at 
+json-server --watch .\db.json --port 5000
+### Step 2 : start client
 
-then type command: json-server --watch .\db.json --port 5000
+npm start
 
-the server will be open. 
-
-then star the project useing: npm start
